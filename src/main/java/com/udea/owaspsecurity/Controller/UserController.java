@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin("*")
 public class UserController {
     private final UserProfileService userProfileService;
-    private final UserProfileRepository userRepository
+    private final UserProfileRepository userRepository;
 
     @Autowired
     public UserController(UserProfileService userProfileService, UserProfileRepository userRepository){
